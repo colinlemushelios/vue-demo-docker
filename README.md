@@ -3,8 +3,9 @@
 
 ``` bash
 # build docker image
-docker build -t %yourdockerhandle%/vue-demo-docker .
+docker build -t vue-demo-docker .
 
 # run docker image at localhost:8081
-docker run -it -p 8081:8080 -d %yourdockerhandle%/vue-demo-docker
+docker run -it -p 8081:8080 -d vue-demo-docker
 ```
+Best practice instead of vue-demo-docker would be %yourdockerhandle%/vue-demo-docker.
